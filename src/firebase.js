@@ -7,7 +7,7 @@ const firebaseConfig = {
     databaseURL: "",
     projectId: ""
   };
-  
+
   firebase.initializeApp(firebaseConfig);
   var database = firebase.firestore();
   export default database;

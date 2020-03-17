@@ -5,7 +5,7 @@
             <h2 v-on:click="item.show = !item.show">{{item.name}}</h2>
             <img v-bind:src="item.image" v-show="item.show"/>
             <buttonComponent></buttonComponent>
-           <!-- <button name="update" v-bind:id="item.id" v-on:click="editItem(index,item)">Update</button> -->
+            <button name="update" v-bind:id="item.id" v-on:click="editItem(index,item)">Update</button>
             <button name="delete" v-bind:id="item.id" v-on:click="deleteItem(index,item)">Delete</button>
         </li>
     </ul>
